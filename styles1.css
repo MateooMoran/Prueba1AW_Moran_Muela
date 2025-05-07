@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  input[type="number"] {
+    width: 100px;
+    padding: 6px;
+    font-size: 18px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  img {
+    margin: 0 auto;
+    margin-top:2rem;
+    max-width: 90%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .status-code {
+    font-size: 24px;
+    font-weight: bold;
+    color: #444;
+  }
+  

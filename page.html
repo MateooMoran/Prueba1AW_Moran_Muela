@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gato del Error HTTP</title>
+  <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <h1>🐱 API de Gatos | Errores HTTP ⚠️</h1>
+    <p>Ingresa un código de error (ej. 404):</p>
+    <input type="number" id="codeInput" min="100" max="599" placeholder="Ej: 404">
+    <div class="status-code">Código: <span id="code">404</span></div>
+    <img id="catImg" src="https://http.cat/404" alt="Gato del error HTTP">
+    <p id="error-msg" style="color: red;"></p>
+  
+  <script src="apicat.js"></script>
+</body>
+</html>
